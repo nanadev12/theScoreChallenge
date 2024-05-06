@@ -1,4 +1,4 @@
-package com.theScore.pages;
+package pages;
 
 import org.openqa.selenium.By;
 
@@ -17,6 +17,7 @@ AppiumDriver driver;
 	public static By WSHSTATS = By.xpath("//android.widget.TextView[@text='TEAM STATS']");
 	public static By BACKBUTTON = AppiumBy.accessibilityId("Navigate up");
 	public static By OFFENSESTATSHEADER = AppiumBy.androidUIAutomator("new UiSelector().text(\"OFFENSE STATS\")");
+	//TODO: use String.format() to dynamically select favorite team
 	public static By WSHTITLE = By.xpath("//android.widget.TextView[@text='Washington Commanders']");
 	public static By FAVORITESNAVBARBUTTON = By.xpath("//android.widget.TextView[@text='Favorites]");
 	

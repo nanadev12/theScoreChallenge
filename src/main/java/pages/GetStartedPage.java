@@ -1,4 +1,4 @@
-package com.theScore.pages;
+package pages;
 
 import org.openqa.selenium.By;
 

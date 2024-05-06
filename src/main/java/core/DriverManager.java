@@ -1,14 +1,15 @@
-package com.theScore.test;
+package core;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
-import org.testng.annotations.BeforeMethod;
 
-import com.theScore.pages.FavoriteLeague;
-import com.theScore.pages.FavoriteTeamInfo;
-import com.theScore.pages.FavoriteTeamPage;
-import com.theScore.pages.GetStartedPage;
+
+import org.testng.annotations.BeforeMethod;
+import pages.FavoriteLeague;
+import pages.FavoriteTeamInfo;
+import pages.FavoriteTeamPage;
+import pages.GetStartedPage;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
