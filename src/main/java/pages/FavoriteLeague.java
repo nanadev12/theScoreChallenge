@@ -1,7 +1,6 @@
 package pages;
 
 import org.openqa.selenium.By;
-
 import io.appium.java_client.AppiumDriver;
 
 public class FavoriteLeague {
@@ -9,7 +8,7 @@ public class FavoriteLeague {
 
     public FavoriteLeague(AppiumDriver driver) {
         this.driver = driver;
-    }
+    };
 
 
     public static By NFL_FOOTBALL = By.xpath("//android.widget.TextView[@text='NFL Football']");
@@ -21,7 +20,8 @@ public class FavoriteLeague {
     public void clickOnSport() {
         driver.findElement(NFL_FOOTBALL).click();
     }
-  public void clickOnOkGotIt() {
+
+    public void clickOnOkGotIt() {
         driver.findElement(OK_GOT_IT).click();
     }
 
