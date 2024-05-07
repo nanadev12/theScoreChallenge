@@ -22,32 +22,38 @@ npm install -g appium@latest
 4.Android Driver Installation:
 -
 Install the UIAutomator2 driver for Android
+using the command following i.e
 appium driver install uiautomator2
 
-5.Appium Inspector:
--
-Install Appium Inspector for inspecting elements:
-npm install -g appium-inspector
-
-6.scrcpy for screen mirroring 
--
-brew install scrcpy
 
 Testing Setup
 
-7.Connect Device:
+5.Connect Device:
 -
 Connect your mobile device to your Mac using a charger cable.
 
-8.Start Appium server 
+6.Start Appium server 
 -
-Start the Appium server by running the following command in the terminal
+Start the Appium server by running the following command  in the terminal i.e appium
 
-9.Start Appium Inspector:
+7.SetUp device details
 -
-Start an Appium Inspector session by specifying the required capabilities for Android 
+Go to android.properties available in root folder then update the platform version of your android phone
+
+8.Run test case
+-
+Go to root folder of the project then run the following command i,e mvn clean install
+
+Pre-requisites: 
+-
+-Incase if you are running on real android phone ,make sure theScore app is installed
+
+-Enable developer tools by tapping on build number 5 times available in about phone 
+
+-Enable USB debugging
 
 
+Incase of emulator - Just install the theScoreApk
 
 
 
