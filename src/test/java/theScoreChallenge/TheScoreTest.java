@@ -24,4 +24,5 @@ public class TheScoreTest extends DriverManager {
 //            favoriteTeamPage.verifyOffenseStatIsDisplayed(favoriteTeamInfo.verifyOffenseStatsText());
 //            favoriteTeamInfo.clickBackButton();
     }
+
 }
